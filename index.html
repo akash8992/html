@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start with CSS</title>
+    <title>css selector</title>
     <link rel="stylesheet" href="style.css">
+    <!--CSS Selector rules-->
+    <style>
+        h1,h3{
+            color: red;
+        }
+        div{
+            background-color: rgb(225, 230, 234);
+        }
+        .blue{
+            background-color: blue;
+            color: white;
+            border: black;
+        }
+        *{
+            margin: 0;
+            padding:0;
+        }
+    </style>
   
 </head>
 <body>
-    <div id="first">
-        First
-    </div>
-    <div id="second">second</div>
-    <div id="third">third</div>
-    <div id="blue">third</div>
-    <div><section class="red bg-blue">
-        red bg bg-blue
-    </section></div>
+    <div>
+    <h1>this is my selector page</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi dolores reprehenderit, expedita optio pariatur reiciendis quidem animi distinctio quis, et similique quo magnam aspernatur quam error impedit illum fugit eveniet doloribus neque dolorum.
+    </p>
+    <h1>this is h1 selector</h1>
+    <span class="blue"> First tag</span>
+    <span class="blue"> Second tag</span>
+    <span class="blue"> Third tag</span>
+    <h3>i am h3</h3>
+</div>
 </body>
 </html>
