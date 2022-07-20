@@ -1,7 +1,15 @@
-
-#first{
-    background-color: rebeccapurple;
+.red{
+    margin: 0;
+    padding: 0;
 }
-.third{
-    background-color: rgb(4, 27, 47);
+
+.red{
+   
+    background: ;
+    color: rgb(51, 99, 158);
+    height: 50px;
+}
+.green{
+    background:23, 22,33;
+    color: pink;
 }
